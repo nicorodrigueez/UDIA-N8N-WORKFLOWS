@@ -1,0 +1,65 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Code in JavaScript",
+            "type": "main"
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-11-11T19:12:06.758Z",
+  "id": "XPymcyGotZo0ovl7",
+  "isArchived": false,
+  "meta": null,
+  "name": "Hola udia",
+  "nodes": [
+    {
+      "id": "7bfc7f3a-6235-415c-8bcc-b3d32d5d3297",
+      "name": "When clicking ‘Execute workflow’",
+      "parameters": {},
+      "position": [
+        0,
+        0
+      ],
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1
+    },
+    {
+      "id": "3d98c83c-df1e-410e-8790-d6efda42eeda",
+      "name": "Code in JavaScript",
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  item.json.myNewField = 1;\n}\n\nreturn $input.all();"
+      },
+      "position": [
+        208,
+        0
+      ],
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "createdAt": "2025-11-11T19:12:06.760Z",
+      "projectId": "lTvd8h3rndx9Msbu",
+      "role": "workflow:owner",
+      "updatedAt": "2025-11-11T19:12:06.760Z",
+      "workflowId": "XPymcyGotZo0ovl7"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-11T19:12:21.000Z",
+  "versionId": "2932a1c2-687b-40a5-b741-fd9d40018497"
+}
