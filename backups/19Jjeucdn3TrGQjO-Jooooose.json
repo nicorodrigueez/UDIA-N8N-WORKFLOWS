@@ -1,0 +1,40 @@
+{
+  "active": false,
+  "connections": {},
+  "createdAt": "2025-11-11T19:54:46.006Z",
+  "id": "19Jjeucdn3TrGQjO",
+  "isArchived": false,
+  "meta": null,
+  "name": "Jooooose",
+  "nodes": [
+    {
+      "id": "c4d3fd55-5a46-407f-98a7-8f169199c255",
+      "name": "When clicking ‘Execute workflow’",
+      "parameters": {},
+      "position": [
+        0,
+        0
+      ],
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "createdAt": "2025-11-11T19:54:46.010Z",
+      "projectId": "lTvd8h3rndx9Msbu",
+      "role": "workflow:owner",
+      "updatedAt": "2025-11-11T19:54:46.010Z",
+      "workflowId": "19Jjeucdn3TrGQjO"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-11T19:54:47.000Z",
+  "versionId": "48946335-e814-4e7d-bef3-a8f789197886"
+}
